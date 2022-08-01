@@ -1,0 +1,28 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+    font-family: "GTF Opposit";
+    src: url("../fonts/GTFOppositTRIAL-Bold.otf") format("opentype");
+    font-weight: normal;
+}
+
+.font-opposit {
+    font-family: "GTF Opposit";
+}
+
+@media only screen and (min-width: 768px) {
+    body, html {
+        overflow: hidden;
+        max-height: 100vh;
+    }
+}

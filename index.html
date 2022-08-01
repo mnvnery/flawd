@@ -1,0 +1,134 @@
+---
+layout: default
+intro: '<p>Neighbourhood natural wine bar and bottle shop.</p>
+<p>Seasonal dishes meant to share.</p>
+<br>
+<p>No reservations, walk ins welcome!</p>'
+location: '<p>Flawd Wine</p>
+<p>9 Keepers Quay</p>
+<p>Manchester</p>
+<p>M4 6GL</p>'
+hours: '<p>Wed/Thu  5—11.30pm</p>
+<p>Friday  3—Midnight</p>
+<p>Saturday  Midday—Midnight</p>
+<p>Sunday  Midday—10pm</p>'
+email: 'hello@flawdwine.co'
+careers: "We are always looking for talented people to join and grow our team. If you'd like to work with 
+an ever-changing list of wines and a daily-changing food menu, please say hello!"
+press: 'richard@flawdwine.co'
+---
+<div class="md:grid grid-cols-[1.4fr_0.5fr_1.1fr] md:min-h-screen">
+    <div class="md:flex flex-col">
+        <div class="text-tdarkblue p-8 2xl:pb-12">
+            <img src="{{site.baseurl}}/assets/img/flawd-logo.svg" alt="Logo" class="mb-6 w-36 3xl:w-60">
+            <div class="text-xl 2xl:text-2xl 3xl:text-4xl">
+                {{page.intro}}
+            </div>
+        </div>
+        <div class="bg-tdarkblue text-tcream p-8 md:h-1/2 md:flex flex-col justify-center">
+            <div class="flex flex-col-reverse md:flex-row justify-between">
+                <div class="flex justify-between md:block mt-7 md:mt-0">
+                    <div>
+                        <h2 class="font-opposit text-xl 2xl:text-2xl 3xl:text-4xl tracking-wider mb-4">LOCATION</h2>
+                        <div class="leading-tight">
+                            {{page.location}}
+                        </div>
+                    </div>
+                    <div>
+                        <h2 class="font-opposit text-xl 2xl:text-2xl 3xl:text-4xl tracking-wider mb-4 md:mt-8 2xl:mt-12 3xl:mt-14">OPENING HOURS</h2>
+                        <div class="leading-tight">
+                            {{page.hours}}
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="{{site.baseurl}}/assets/img/arms.svg" alt="Logo" class="w-3/4 md:w-full mx-auto 2xl:w-[22vw]">
+                </div>
+            </div>
+        </div>
+        <div class="text-tdarkblue p-8 md:pt-5 2xl:pt-12">
+            <h2 class="font-opposit text-xl 2xl:text-2xl 3xl:text-4xl tracking-wider mb-1">SUBSCRIBE TO OUR NEWSLETTER</h2>
+            <form class="md:flex border-tdarkblue border-y-2">
+                <div class="flex flex-col border-tdarkblue border-b-2 md:border-b-0 md:border-r-2 py-1.5"><label class="text-xs 3xl:text-base">First Name</label><input type="text" name="firstname" class="bg-transparent text-tdarkblue border-0 focus:outline-none md:w-36 2xl:w-44 3xl:w-60"/></div>
+                <div class="flex flex-col border-tdarkblue border-b-2  md:border-b-0 md:border-r-2 py-1.5 md:pl-1.5"><label class="text-xs 3xl:text-base">Last Name</label><input type="text" name="lastname" class="bg-transparent text-tdarkblue border-0 focus:outline-none md:w-36 2xl:w-44 3xl:w-60"/></div>
+                <div class="flex flex-col border-tdarkblue border-b-2 md:border-b-0 md:border-r-2 py-1.5 md:pl-1.5"><label class="text-xs 3xl:text-base">Email</label><input type="email" name="email" class="bg-transparent text-tdarkblue border-0 focus:outline-none md:w-36 2xl:w-44 3xl:w-60"/></div>
+                <button type="submit" class="px-5 w-full py-2">Submit →</button>
+            </form>
+        </div>
+    </div>
+    <div class="changing-bg text-tdarkblue pb-8">
+        <div>
+            <h2 class="font-opposit text-xl 2xl:text-2xl 3xl:text-4xl tracking-wider p-4">WE SELL...</h2>
+            <div class="border border-tdarkblue changing-border"></div>
+        </div>
+        <div class="flex md:flex-col justify-between md:h-[90%] md:pt-4">
+            <div class="flex flex-col justify-between md:block text-center md:px-10 py-2 w-1/2 md:w-full">
+                <img src="{{site.baseurl}}/assets/img/wine.svg" alt="Logo" class="mx-auto max-h-24 2xl:max-h-36 3xl:max-h-52 mb-2 w-20 md:w-full wine">
+                <p class="text-sm md:text-base 2xl:text-xl 3xl:text-2xl">Natural Wine</p>
+            </div>
+            <div class="border border-tdarkblue changing-border"></div>
+            <div class="flex flex-col justify-between md:block text-center md:px-10 py-2 w-1/2 md:w-full">
+                <img src="{{site.baseurl}}/assets/img/beer.svg" alt="Logo" class="mx-auto max-h-24 2xl:max-h-36 3xl:max-h-52 mb-2 w-20 md:w-full beer">
+                <p class="text-sm md:text-base 2xl:text-xl 3xl:text-2xl">Beer</p>
+            </div>
+            <div class="border border-tdarkblue changing-border"></div>
+            <div class="flex flex-col justify-between md:block text-center md:px-10 py-2 w-1/2 md:w-full">
+                <img src="{{site.baseurl}}/assets/img/togo.svg" alt="Logo" class="mx-auto max-h-24 2xl:max-h-36 3xl:max-h-52 mb-2 w-20 md:w-full togo">
+                <p class="text-sm md:text-base 2xl:text-xl 3xl:text-2xl">Bottles To-Go</p>
+            </div>
+            <div class="border border-tdarkblue changing-border"></div>
+            <div class="flex flex-col justify-between md:block text-center md:px-10 py-2 w-1/2 md:w-full">
+                <img src="{{site.baseurl}}/assets/img/merch.svg" alt="Logo" class="mx-auto max-h-24 2xl:max-h-36 3xl:max-h-52 mb-2 w-20 md:w-full merch">
+                <p class="text-sm md:text-base 2xl:text-xl 3xl:text-2xl">Merch</p>
+            </div>
+        </div>
+        <div class="md:hidden border border-tdarkblue changing-border"></div>
+    </div>
+    <div class="md:flex flex-col">
+        <div class="bg-tdarkblue text-tcream p-8 text-center 2xl:h-1/3">
+            <img src="{{site.baseurl}}/assets/img/music.svg" alt="Logo" class="mb-6 mx-auto max-h-48 3xl:max-h-80 3xl:w-full">
+            <p class="text-xl 2xl:text-2xl 3xl:text-4xl">Listen to Flawd's playlists <a href="https://open.spotify.com/playlist/7jmK5BEQsdVIQhosbSjV3n?si=58723a96de05429e" target="_blank" class="underline">here.</a></p>
+        </div>
+        <div class="pb-16 md:pb-8 p-8 pr-20">
+            <h2 class="font-opposit text-xl 2xl:text-2xl 3xl:text-4xl tracking-wider my-1">EMAIL</h2>
+            <a href="mailto:{{page.email}}">{{page.email}}</a>
+            <br>
+            <div class="2xl:mb-12 3xl:mb-14">If you wish to enquire about large group events please send us an email.</div>
+            <h2 class="font-opposit text-xl 2xl:text-2xl 3xl:text-4xl tracking-wider my-1">CAREERS</h2>
+            <div class="2xl:mb-12 3xl:mb-14">{{page.careers}}</div>
+            <h2 class="font-opposit text-xl 2xl:text-2xl 3xl:text-4xl tracking-wider my-1">PRESS</h2>
+            <div  class="2xl:mb-12 3xl:mb-14">Please contact <a href="mailto:{{page.press}}?cc={{page.email}}" class="underline">Richard Cossins</a></div>
+
+            <h2 class="font-opposit text-xl 2xl:text-2xl 3xl:text-4xl tracking-wider my-1">CREDITS</h2>
+            <div>Illustration by Freya Wysocki.</div>
+        </div>
+    </div>
+</div>
+<div class="changing-bg fixed bottom-0 right-0 p-3">
+    <a href="https://www.instagram.com/flawdwine/" target="_blank"><img src="{{site.baseurl}}/assets/img/insta.svg" alt="Logo" class="w-10 insta 2xl:w-14 3xl:w-20"></a>
+</div>
+
+<script>
+    $(document).ready(function () {
+        var back = ["#F2F15B","#D61A67","#0271B1","#EDC195"];
+        var rand = back[Math.floor(Math.random() * back.length)];
+        $('.changing-bg').css('background',rand);
+        if (rand == '#0271B1' || rand == '#D61A67') {
+            $('.changing-bg').addClass('text-tcream').removeClass('text-tdarkblue');
+            $('.changing-border').addClass('border-tcream').removeClass('border-tdarkblue');
+            $('.insta').attr("src" , '{{site.baseurl}}/assets/img/insta-light.svg');
+            $('.merch').attr("src" , '{{site.baseurl}}/assets/img/merch-light.svg');
+            $('.beer').attr("src" , '{{site.baseurl}}/assets/img/beer-light.svg');
+            $('.togo').attr("src" , '{{site.baseurl}}/assets/img/togo-light.svg');
+            $('.wine').attr("src" , '{{site.baseurl}}/assets/img/wine-light.svg');
+        } else {
+            $('.changing-bg').removeClass('text-tcream').addClass('text-tdarkblue');
+            $('.changing-border').removeClass('border-tcream').addClass('border-tdarkblue');
+            $('.insta').attr("src" , '{{site.baseurl}}/assets/img/insta.svg');
+            $('.merch').attr("src" , '{{site.baseurl}}/assets/img/merch.svg');
+            $('.beer').attr("src" , '{{site.baseurl}}/assets/img/beer.svg');
+            $('.togo').attr("src" , '{{site.baseurl}}/assets/img/togo.svg');
+            $('.wine').attr("src" , '{{site.baseurl}}/assets/img/wine.svg');
+        }
+    })
+</script>
