@@ -31,7 +31,7 @@ press: 'richard@flawdwine.co'
                     <div>
                         <h2 class="font-opposit text-xl 2xl:text-2xl 3xl:text-4xl tracking-wider mb-4">LOCATION</h2>
                         <div class="leading-tight">
-                            {{page.location}}
+                            <a href="https://goo.gl/maps/MwDGgt368RwRGLev7" target="_blank" class="hover:underline">{{page.location}}</a>
                         </div>
                     </div>
                     <div>
@@ -46,7 +46,7 @@ press: 'richard@flawdwine.co'
                 </div>
             </div>
         </div>
-        <div class="text-tdarkblue p-8 md:pt-5 2xl:pt-8 3xl:pt-12">
+        <div class="text-tdarkblue p-8 md:pt-5 2xl:pt-12 3xl:pt-12">
             <h2 class="font-opposit text-xl 2xl:text-2xl 3xl:text-4xl tracking-wider mb-1">SUBSCRIBE TO OUR NEWSLETTER</h2>
             <form class="md:flex border-tdarkblue border-y-2">
                 <div class="flex flex-col border-tdarkblue border-b-2 md:border-b-0 md:border-r-2 py-1.5"><label class="text-xs 3xl:text-base">First Name</label><input type="text" name="firstname" class="bg-transparent text-tdarkblue border-0 focus:outline-none md:w-36 2xl:w-44 3xl:w-60"/></div>
@@ -86,21 +86,21 @@ press: 'richard@flawdwine.co'
     </div>
     <div class="md:flex flex-col">
         <div class="bg-tdarkblue text-tcream p-8 text-center 2xl:h-1/3">
-            <img src="{{site.baseurl}}/assets/img/music.svg" alt="Logo" class="mb-6 mx-auto max-h-48 3xl:max-h-80 3xl:w-full">
+            <img src="{{site.baseurl}}/assets/img/music.svg" alt="Logo" class="mb-6 mx-auto max-h-40 2xl:max-h-56 3xl:max-h-80 3xl:w-full">
             <p class="text-xl 2xl:text-2xl 3xl:text-4xl">Listen to Flawd's playlists <a href="https://open.spotify.com/playlist/7jmK5BEQsdVIQhosbSjV3n?si=58723a96de05429e" target="_blank" class="underline">here.</a></p>
         </div>
-        <div class="pb-16 md:pb-8 p-8 pr-20">
-            <h2 class="font-opposit text-xl 2xl:text-2xl 3xl:text-4xl tracking-wider my-1">EMAIL</h2>
-            <a href="mailto:{{page.email}}">{{page.email}}</a>
+        <div class="pb-16 md:pb-8 p-8 pr-28 leading-5 2xl:leading-[1.2]">
+            <h2 class="font-opposit 2xl:text-2xl 3xl:text-4xl tracking-wider my-1">EMAIL</h2>
+            <a href="mailto:{{page.email}}" class="hover:underline">{{page.email}}</a>
             <br>
-            <div class="2xl:mb-8 3xl:mb-14">If you wish to enquire about large group events please send us an email.</div>
-            <h2 class="font-opposit text-xl 2xl:text-2xl 3xl:text-4xl tracking-wider my-1">CAREERS</h2>
-            <div class="2xl:mb-8 3xl:mb-14">{{page.careers}}</div>
-            <h2 class="font-opposit text-xl 2xl:text-2xl 3xl:text-4xl tracking-wider my-1">PRESS</h2>
-            <div  class="2xl:mb-8 3xl:mb-14">Please contact <a href="mailto:{{page.press}}?cc={{page.email}}" class="underline">Richard Cossins</a></div>
+            <div class="mb-5 mt-3 2xl:mb-8 3xl:mb-14">If you wish to enquire about large group events please send us an email.</div>
+            <h2 class="font-opposit 2xl:text-2xl 3xl:text-4xl tracking-wider my-1">CAREERS</h2>
+            <div class="mb-5 2xl:mb-8 3xl:mb-14">{{page.careers}}</div>
+            <h2 class="font-opposit 2xl:text-2xl 3xl:text-4xl tracking-wider my-1">PRESS</h2>
+            <div  class="mb-5 2xl:mb-8 3xl:mb-14">Please contact <a href="mailto:{{page.press}}?cc={{page.email}}" class="underline">Richard Cossins</a>.</div>
 
-            <h2 class="font-opposit text-xl 2xl:text-2xl 3xl:text-4xl tracking-wider my-1">CREDITS</h2>
-            <div>Illustration by Freya Wysocki.</div>
+            <h2 class="font-opposit 2xl:text-2xl 3xl:text-4xl tracking-wider my-1">CREDITS</h2>
+            <div>Illustration by <a href="https://www.instagram.com/freya.wysocki/" class="hover:underline">Freya Wysocki</a>.</div>
         </div>
     </div>
 </div>
