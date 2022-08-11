@@ -20,9 +20,16 @@ body {
     font-family: "GTF Opposit";
 }
 
+#mc_embed_signup .brandingLogo {
+    display: none;
+}
+#mc_embed_signup input {
+    border: 0 !important;
+}
+
 @media only screen and (min-width: 768px) {
     body, html {
-        overflow: hidden;
+        overflow: scroll;
         max-height: 100vh;
     }
 }
