@@ -1,6 +1,6 @@
 ---
 label: Index
-hide_body: false
+hide_body: true
 fields:
 - type: text
   name: layout
@@ -8,27 +8,27 @@ fields:
   hidden: true
 - type: textarea
   name: intro
-  label: intro
+  label: Intro
   config:
     wysiwyg: true
     schema:
       format: html-blocks
 - type: text
   name: location
-  label: location
+  label: Location
 - type: text
   name: hours
-  label: hours
+  label: Hours
 - type: text
   name: email
-  label: email
+  label: Email
 - type: textarea
   name: careers
-  label: careers
+  label: Careers
   config:
     wysiwyg: true
     schema:
       format: html-blocks
 - type: text
   name: press
-  label: press
+  label: Press
