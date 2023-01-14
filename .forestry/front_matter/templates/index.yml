@@ -16,6 +16,15 @@ fields:
 - type: text
   name: location
   label: Location
+- name: loca
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Location
 - type: text
   name: hours
   label: Hours
