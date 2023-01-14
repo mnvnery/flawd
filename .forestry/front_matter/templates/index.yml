@@ -48,6 +48,6 @@ fields:
       format: html-blocks
 - type: text
   name: press
-  label: Press
+  label: Press Email
 pages:
 - index.html
