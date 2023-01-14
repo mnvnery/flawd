@@ -5,9 +5,14 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
 - type: textarea
   name: intro
   label: intro
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
 - type: text
   name: location
   label: location
@@ -20,6 +25,10 @@ fields:
 - type: textarea
   name: careers
   label: careers
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
 - type: text
   name: press
   label: press
