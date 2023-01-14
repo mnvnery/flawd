@@ -13,10 +13,7 @@ fields:
     wysiwyg: true
     schema:
       format: html-blocks
-- type: text
-  name: location
-  label: Location
-- name: loca
+- name: location
   type: textarea
   default: ''
   config:
@@ -27,6 +24,15 @@ fields:
   label: Location
 - type: text
   name: hours
+  label: Hours
+- name: hour
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
   label: Hours
 - type: text
   name: email
