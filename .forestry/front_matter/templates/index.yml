@@ -22,10 +22,7 @@ fields:
     schema:
       format: html-blocks
   label: Location
-- type: text
-  name: hours
-  label: Hours
-- name: hour
+- name: hours
   type: textarea
   default: ''
   config:
