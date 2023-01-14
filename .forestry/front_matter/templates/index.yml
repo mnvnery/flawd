@@ -1,0 +1,25 @@
+---
+label: Index
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: textarea
+  name: intro
+  label: intro
+- type: text
+  name: location
+  label: location
+- type: text
+  name: hours
+  label: hours
+- type: text
+  name: email
+  label: email
+- type: textarea
+  name: careers
+  label: careers
+- type: text
+  name: press
+  label: press
