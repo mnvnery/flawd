@@ -27,6 +27,12 @@ body {
     border: 0 !important;
 }
 
+/* Ensure scrolling works on all devices */
+body, html {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
 @media only screen and (min-width: 768px) {
     body, html {
         overflow: scroll;
