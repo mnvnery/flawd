@@ -39,3 +39,14 @@ body, html {
         max-height: 100vh;
     }
 }
+
+#ot-reservation-widget.parent-widget-type-button .ot-button {
+   background-color: #264073 !important;
+   font-family: "GTF Opposit" !important;
+   text-transform: uppercase !important;
+   border-radius: 0 !important;
+}
+
+#ot-reservation-widget.parent-widget-type-button .ot-button:hover, #ot-reservation-widget.parent-widget-type-button .ot-button:focus {
+    background-color: #264073e4 !important;
+}
