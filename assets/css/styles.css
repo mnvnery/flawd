@@ -46,8 +46,10 @@ body, html {
    font-family: "GTF Opposit" !important;
    text-transform: uppercase !important;
    border-radius: 0 !important;
+   font-size: 1.5em !important;
+   padding: 0 !important;
 }
 
 #ot-reservation-widget.parent-widget-type-button .ot-button:hover, #ot-reservation-widget.parent-widget-type-button .ot-button:focus {
-    background-color: #F2F15Be4 !important;
+    text-decoration: underline !important;
 }
