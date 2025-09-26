@@ -48,8 +48,25 @@ body, html {
    border-radius: 0 !important;
    font-size: 1.5em !important;
    padding: 0 !important;
+   transition: transform 0.3s ease !important;
+   animation: bounce-gentle 1.5s infinite !important;
+}
+
+#ot-reservation-widget.parent-widget-type-button .ot-button:hover {
+   transform: scale(1.05) !important;
+   animation-play-state: paused !important;
 }
 
 #ot-reservation-widget.parent-widget-type-button .ot-button:hover, #ot-reservation-widget.parent-widget-type-button .ot-button:focus {
     text-decoration: underline !important;
+}
+
+/* Gentle Bounce Animation Keyframes */
+@keyframes bounce-gentle {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
 }
