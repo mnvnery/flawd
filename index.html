@@ -1,7 +1,10 @@
 ---
 layout: default
-intro: <p>Neighbourhood natural wine bar and bottle shop.</p> <p>Seasonal dishes
-  meant to share.</p> <br> <p>No reservations, walk-ins welcome!</p>
+intro: |-
+  Neighbourhood natural wine bar and bottle shop.\
+  Seasonal dishes meant to share.\
+  \
+  No reservations, walk-ins welcome!
 location: |-
   Flawd Wine\
   9 Keepers Quay\
@@ -24,7 +27,7 @@ gift_link: https://squareup.com/gift/MLT43PCYJS0VX/order
         <div class="text-tdarkblue p-8 2xl:pb-12">
             <img src="{{site.baseurl}}/assets/img/flawd-logo.svg" alt="Logo" class="mb-6 w-36 3xl:w-60">
             <div class="text-xl 2xl:text-2xl 3xl:text-4xl">
-                {{page.intro}}
+                {{page.intro | markdownify}}
             </div>
         </div>
         <div class="bg-tdarkblue text-tcream p-8 md:h-1/2 md:flex flex-col justify-center">
@@ -33,13 +36,13 @@ gift_link: https://squareup.com/gift/MLT43PCYJS0VX/order
                     <div class="ml-4 md:ml-0">
                         <h2 class="font-opposit text-[3.8vw] md:text-xl 2xl:text-2xl 3xl:text-4xl tracking-wider mb-4">LOCATION</h2>
                         <div class="leading-tight">
-                            <a href="https://goo.gl/maps/MwDGgt368RwRGLev7" target="_blank" class="hover:underline hover:underline-offset-2">{{page.location}}</a>
+                            <a href="https://goo.gl/maps/MwDGgt368RwRGLev7" target="_blank" class="hover:underline hover:underline-offset-2">{{page.location | markdownify}}</a>
                         </div>
                     </div>
                     <div>
                         <h2 class="font-opposit text-[3.8vw] md:text-xl 2xl:text-2xl 3xl:text-4xl tracking-wider mb-4 md:mt-8 2xl:mt-12 3xl:mt-14">WINE BAR & BOTTLE SHOP</h2>
                         <div class="leading-tight">
-                            {{page.hours}}
+                            {{page.hours | markdownify}}
                         </div>
                     </div>
                 </div>
@@ -125,12 +128,12 @@ gift_link: https://squareup.com/gift/MLT43PCYJS0VX/order
             <br>
             <div class="mb-5 mt-3 2xl:mb-8 3xl:mb-14">If you wish to enquire about large group events please send us an email.</div>
             <h2 class="font-opposit text-lg 2xl:text-2xl 3xl:text-4xl tracking-wider my-1">CAREERS</h2>
-            <div class="mb-5 2xl:mb-8 3xl:mb-14">{{page.careers}}</div>
+            <div class="mb-5 2xl:mb-8 3xl:mb-14">{{page.careers | markdownify}}</div>
             <h2 class="font-opposit text-lg 2xl:text-2xl 3xl:text-4xl tracking-wider my-1">PRESS</h2>
             <div  class="mb-5 2xl:mb-8 3xl:mb-14">Please contact <a href="mailto:{{page.press}}?cc={{page.email}}" class="underline underline-offset-2">Richard Cossins</a>.</div>
 
             <h2 class="font-opposit text-lg 2xl:text-2xl 3xl:text-4xl tracking-wider my-1">CREDITS</h2>
-            <div>Illustration by <a href="https://www.instagram.com/freya.wysocki/" class="hover:underline hover:underline-offset-2">Freya Wysocki</a>.</div>
+            <div>{{page.credits | markdownify}}</div>
         </div>
     </div>
 </div>
