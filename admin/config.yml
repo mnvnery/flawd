@@ -1,0 +1,73 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+
+# Media files will be stored in the "assets/img" directory
+media_folder: 'assets/img'
+# The public_path option should be used only if the media_folder is located
+# above the public directory in the file tree.
+# The public_path option is prepended to file paths when uploading media files.
+public_folder: '/assets/img'
+
+# A list of collections the CMS should maintain
+collections:
+  # Our main content collection - the home page
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "index.html"
+        label: "Home Page"
+        name: "home"
+        fields:
+          # Layout field (hidden)
+          - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
+          
+          # Main content sections
+          - label: "Introduction"
+            name: "intro"
+            widget: "markdown"
+            hint: "Main intro text displayed at the top of the page"
+          
+          - label: "Location"
+            name: "location"
+            widget: "markdown"
+            hint: "Address and location information"
+          
+          - label: "Hours"
+            name: "hours"
+            widget: "markdown"
+            hint: "Opening hours and times"
+          
+          # Contact information
+          - label: "Email"
+            name: "email"
+            widget: "string"
+            hint: "Main contact email address"
+          
+          - label: "Press Email"
+            name: "press"
+            widget: "string"
+            hint: "Press contact email address"
+          
+          # Content sections
+          - label: "Careers"
+            name: "careers"
+            widget: "markdown"
+            hint: "Careers section content"
+          
+          - label: "Credits"
+            name: "credits"
+            widget: "markdown"
+            hint: "Credits and acknowledgments"
+          
+          # Links
+          - label: "Playlist Link"
+            name: "playlist_link"
+            widget: "string"
+            hint: "Spotify playlist URL"
+          
+          - label: "Gift Card Link"
+            name: "gift_link"
+            widget: "string"
+            hint: "Gift card purchase URL"
+          
